@@ -1,3 +1,7 @@
+#Contoh kodingan SSO
+#Unntuk membuat kode SSO Menggunakan PHP anda perlu mengintregrasikan Aplikasi anda dengan penyedia layanan SSO
+#Yang anda pilih Seperti Okta, AuthO, KeyCloak, atau yang lainnya. 
+
 require_once 'vendor/autoload.php';
 
 use League\OAuth2\Client\Provider\Auth0;
