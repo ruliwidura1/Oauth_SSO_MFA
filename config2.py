@@ -1,3 +1,5 @@
+#Multi-Faktor Authentication (MFA) adalah metode keamanan yang memerlukan lebih dari satu metode otentikasi pengguna
+#Biasanya MFA melibatkan dua atau lebih faktor, seperti sesuatu yang anda ketahui (Kata sandi),sesuatu yang anda miliki (Token) Dan sesuatu yang anda adalah(Biometrik).
 from flask import Flask, request, redirect, render_template
 from flask_login import LoginManager, UserMixin, login_user, login_required, current_user, logout_user
 import pyotp  # Pustaka untuk Google Authenticator
