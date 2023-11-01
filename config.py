@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 #Oauth (Open Authorization)
 #Berikut adalah contok kode Oauth sederhana dalam bahasa pemerograman Pyhton menggunakan pustaka request
 #dan flaks-Oauthlib. kode ini menunjukan bagainama anda dapat mengizinkan akses ke sumber daya yang dilindungi oleh Oauth.
 
+=======
+>>>>>>> 943a72639906fd2f1c4d96ebb7bd9f5cabaf499e
 from flask import Flask, request, redirect, session, url_for
 from flask_oauthlib.client import OAuth
 
